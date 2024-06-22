@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Live : <a href="https://gravitimaps.netlify.app/">Graviti Demo</a>
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -11,8 +13,6 @@ In the project directory, you can run:
 then to start app you can run
 
 ### `npm start` 
-
-Live : <a href="https://gravitimaps.netlify.app/">Graviti Demo</a>
 
 Runs the app in the development mode.\
 
