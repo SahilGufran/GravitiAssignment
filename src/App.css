@@ -1,0 +1,171 @@
+/* App.css */
+
+.app-container {
+  display:flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  box-sizing: border-box;
+  margin-top: -10px;
+  background-color: #eaeaea;
+}
+
+.title{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:large;
+  margin-top: -35px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color:#0000ff;
+}
+
+.left-container,
+.right-container {
+  width: 60%;
+  height: 100%;
+  overflow: auto;
+}
+
+.left-container {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.right-container {
+  padding: 50px;
+  box-sizing: border-box;
+  height: 80%;
+}
+
+.logo {
+  margin-bottom: 20px;
+  color: #ccc;
+  background-attachment: fixed;
+  enable-background: new;
+}
+
+.input-container {
+  margin-top: 100px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight:bold;
+  font-size: 14px;
+}
+
+.input-group input {
+  margin-top: 5px;
+  width: 50%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.add-stop {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  
+}
+
+.add-stop:hover {
+  background-color: #0056b3;
+}
+
+.calculate-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #0000bb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  width: 140px;
+  height: 50px;
+  margin-left: 30px;
+  border-radius: 30px;
+}
+
+.calculate-button:hover {
+  background-color: #0056b3;
+}
+
+.map-container {
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.distance-container {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+  margin-top: 30px;
+  margin-left: 30px;
+  > strong{
+    font-size: 20px;
+  }
+}
+
+.distance-value {
+  font-weight: bold;
+  font-size: 24px;
+  color: #007bff;
+  
+  > strong{
+    margin-right: 250px;
+    color: #333;
+    
+  }
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .left-container,
+  .right-container {
+    width: 100%;
+  }
+  .distance-container {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+    margin-top: 30px;
+    margin-left: 30px;
+    > strong{
+      font-size: 20px;
+    }
+}
+}
