@@ -6,11 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install` then  
+
 ### `npm start` 
 
 Live : <a href="https://gravitimaps.netlify.app/">Graviti Demo</a>
 
 Runs the app in the development mode.\
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
