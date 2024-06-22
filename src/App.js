@@ -7,7 +7,7 @@ import {
 } from "@react-google-maps/api";
 import "./App.css";
 
-const googleMapsApiKey = 'AIzaSyAJF2Jx1FktllhFk2hJQ797xzTW8udK99Q';
+const googleMapsApiKey = 'ADD_YOUR_API_KEY';
 
 const libraries = ["places"];
 const mapContainerStyle = {
